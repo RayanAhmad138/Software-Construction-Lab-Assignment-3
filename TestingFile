@@ -1,1 +1,56 @@
 Asslam o Aliekum.......Here is Rayan Ahmad. Will do my best to timely upload my assignments.
+package inheritance;
+
+public class person {
+	protected String name;
+	protected String id;
+	protected int phno;
+	
+	public person()
+	{
+		name = "afshan";
+		id = "sp18 006";
+		phno = 123;
+	}
+	public person(String n,String r,int p)
+	{
+		name = n;
+		id = r;
+		phno = p;
+	}
+	
+	
+	
+	public void setName(String a){
+		name = a ;
+	}
+
+	public void setId(String j){
+		id = j ;
+		
+	}
+
+	public void setPhone(int a) {
+		phno = a ;
+	}
+
+	public String getName() {
+		return name ;
+	}
+
+	public String getid() {
+		return id;
+	}
+
+	public int getPhone() {
+		return phno ;
+	}
+
+	public void display( ) {
+		System.out.println("Name : " + name + "ID : " + id + "Phone : " + phno ) ;
+		
+	}
+}
+
+
+
